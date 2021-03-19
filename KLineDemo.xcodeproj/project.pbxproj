@@ -13,6 +13,7 @@
 		88FF41AC26048294008B5DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FF41AA26048294008B5DC9 /* Main.storyboard */; };
 		88FF41AE2604829E008B5DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FF41AD2604829E008B5DC9 /* Assets.xcassets */; };
 		88FF41B12604829E008B5DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FF41AF2604829E008B5DC9 /* LaunchScreen.storyboard */; };
+		88FF41BC26048518008B5DC9 /* KLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF41BB26048518008B5DC9 /* KLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		88FF41AD2604829E008B5DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FF41B02604829E008B5DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FF41B22604829E008B5DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FF41BB26048518008B5DC9 /* KLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		88FF41A326048294008B5DC9 /* KLineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				88FF41BA260484E3008B5DC9 /* KLineView */,
 				88FF41A426048294008B5DC9 /* AppDelegate.swift */,
 				88FF41A626048294008B5DC9 /* SceneDelegate.swift */,
 				88FF41A826048294008B5DC9 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				88FF41B22604829E008B5DC9 /* Info.plist */,
 			);
 			path = KLineDemo;
+			sourceTree = "<group>";
+		};
+		88FF41BA260484E3008B5DC9 /* KLineView */ = {
+			isa = PBXGroup;
+			children = (
+				88FF41BB26048518008B5DC9 /* KLineView.swift */,
+			);
+			path = KLineView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FF41BC26048518008B5DC9 /* KLineView.swift in Sources */,
 				88FF41A926048294008B5DC9 /* ViewController.swift in Sources */,
 				88FF41A526048294008B5DC9 /* AppDelegate.swift in Sources */,
 				88FF41A726048294008B5DC9 /* SceneDelegate.swift in Sources */,
